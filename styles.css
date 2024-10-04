@@ -1,0 +1,466 @@
+body {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #121212;
+    background-position: center;
+    background-size: cover;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #121212;
+    background: transparent;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+#header_bar {
+    background: transparent;
+    backdrop-filter: blur(50px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+
+#header_icon {
+    list-style: none;
+    margin-left: 10%;
+}
+
+#header_icon img {
+    width: 50px;
+    height: auto;
+}
+
+#header_nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10%;
+    padding: 0;
+}
+
+#header_nav li {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#header_nav li:last-child {
+    margin-right: 0;
+}
+
+#header_nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#header_nav .status {
+    background-color: #114a0ea2;
+    color: rgb(0, 209, 17);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#header_nav a:hover {
+    animation: border-bottom 0.1s ease-in-out forwards;
+}
+@keyframes border-bottom {
+    0% {
+        border-bottom: 0px solid white;
+    }
+    100% {
+        border-bottom: 3px solid white;
+    }
+}
+
+#header_nav a[href="/"] {
+    position: relative;
+}
+
+#header_nav a[href="/"]:after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: white;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#PicME {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0px 100px rgb(188, 73, 255, 0.5);
+    margin-bottom: 25px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+main > div:first-child {
+    margin-top: 120px;
+}
+
+footer {
+    bottom: 0;
+    border-top: 1px solid #ffffff70;
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+#logo-footer {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+}
+
+.fontsize-100 {
+    font-size: 100px;
+}
+
+.fontsize-40 {
+    font-size: 40px;
+}
+
+.fontsize-20 {
+    font-size: 20px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.margintop-50 {
+    margin-top: 50px;
+}
+
+.bt {
+    background-color: #ffffffa2;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.bg-FB {
+    background-color: #183b7893;
+    color: #005eff;
+}
+.bg-IG {
+    background-color: #770b7fad;
+    color: #fe63c8;
+}
+.bg-GH {
+    background-color: #ffffffa2;
+    color: #ffffff;
+}
+.bg-FB:hover {
+    box-shadow: 0 0 15px rgba(0, 106, 255, 0.5);
+}
+.bg-IG:hover {
+    box-shadow: 0 0 15px rgba(255, 0, 183, 0.5);
+}
+.bg-GH:hover {
+    box-shadow: 0 0 15px rgba(239, 239, 239, 0.5);
+}
+
+.size-50{
+    size: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: linear-gradient(0deg,#000,#222);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.card h2 {
+    color: #fff;
+}
+
+.card p {
+    color: #bbb;
+}
+
+.card .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5a2d91;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #7a4aeb;
+}
+
+.cardRGB:before,.cardRGB:after {
+    content: '';
+    position: absolute;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #fb0094 ,#0000ff ,#00ff00 ,#ffff00 ,#ff0000 ,#fb0094 ,#0000ff ,#00ff00 ,#ffff00 ,#ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+.cardhover:before,.cardhover:after {
+    content: '';
+    position: absolute;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #fb0094 ,#0000ff ,#bb00ff);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    animation: animate 10s linear infinite;
+}
+
+.cardhover:hover:before,
+.cardhover:hover:after {
+    opacity: 1;
+}
+
+.card:after {
+    filter: blur(20px);
+}
+
+.cardsize {
+    max-width: 350px;
+    width: 100%;
+}
+.cardsize img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.container-skill {
+    position: relative;
+    width: 90%;
+    background: linear-gradient(0deg,#000,#222);
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #f8f8f8;
+}
+
+.container-skill:after {
+    filter: blur(5px);
+}
+
+.container-skill .skill-box {
+    width: 100%;
+    margin: 25px 0;
+    margin-top: 50px;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.skill-box .skill-bar {
+    height: 10px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(247, 233, 255, 0.5);
+}
+
+.skill-box .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    animation: progress 0.4s ease-in-out forwards;
+}
+
+.skill-box .tooltip {
+    position: absolute;
+    right: -20px;
+    top: -35px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+    background: #ffffff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    left: 35%;
+    bottom: -10px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: #ffffff;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-box .progress-20 {
+    width: 20%;
+}
+.skill-box .progress-30 {
+    width: 30%;
+}
+.skill-box .progress-50 {
+    width: 50%;
+}
+.skill-box .progress-60 {
+    width: 60%;
+}
+.skill-box .progress-70 {
+    width: 70%;
+}
+.skill-box .progress-80 {
+    width: 80%;
+}
+.skill-box .progress-90 {
+    width: 90%;
+}
+
+.skill-box .Bg1  {
+    background: #ff77e6;
+}
+.skill-box .Bg2 {
+    background: #ffc6f5;
+}
+
+.skill-box .tooltip,
+.skill-box .tooltip::before {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.skill-bar:hover .tooltip,
+.skill-bar:hover .tooltip::before {
+    opacity: 1;
+}
+
+.skill-bar:hover {
+    box-shadow: 0 0 15px rgba(239, 239, 239, 0.5);
+}
