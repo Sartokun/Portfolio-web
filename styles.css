@@ -464,3 +464,8 @@ footer {
 .skill-bar:hover {
     box-shadow: 0 0 15px rgba(239, 239, 239, 0.5);
 }
+
+.disabled-link {
+    pointer-events: none;
+    opacity: 0.6;
+}
