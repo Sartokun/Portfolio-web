@@ -461,7 +461,7 @@ footer {
     opacity: 1;
 }
 
-.skill-bar:hover {
+.skill-Box:hover {
     box-shadow: 0 0 15px rgba(239, 239, 239, 0.5);
 }
 
