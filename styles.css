@@ -233,8 +233,8 @@ footer {
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 100px;
+    margin-right: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -335,7 +335,7 @@ footer {
 
 .container-skill {
     position: relative;
-    width: 90%;
+    width: 50%;
     background: linear-gradient(0deg,#000,#222);
     margin: 0 auto;
     margin-top: 100px;
@@ -519,6 +519,15 @@ footer {
         object-fit: cover;
         box-shadow: 0 0px 100px rgb(188, 73, 255, 0.5);
         margin-bottom: 25px;
+    }
+
+    .card-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container-skill {
+        width: 80%;
     }
 }
 
