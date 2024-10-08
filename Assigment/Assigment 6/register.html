@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<link rel="icon" href="Pictures/icon/แมวซาโต้_002.png" type="image/png">
+    <title>TOAO_ App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='register.css'>
+    <script src='register.js'></script>
+</head>
+<body>
+	<section>
+		<form name="myRegister" id="myRegister" action="login.html">
+			<fieldset>
+				<legend>Register</legend>
+				<span>* require</span> 
+				<br>
+				<br>
+				First name*: 
+				<input type="text" name="firstname" required>
+				Last name*: 
+				<input type="text" name="lastname">
+				<br>
+				Gender*: 
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other">Other
+				<br>
+				Birthday*: 
+				<input type="date" name="bday" required>
+				<br>
+				Email address*: 
+				<input type="email" name="email" required>
+				<br>
+				Username*: 
+				<input type="text" name="username" required>
+				<br>
+				Password*: 
+				<input type="password" name="password" required>
+				<br>
+				Retype Password*: 
+				<input type="password" name="password" required>
+				<br>
+				<span id="errormsg"></span> <br>
+				<br>
+				<input type="submit" value="Register">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
+	</section>
+</body>
+</html>

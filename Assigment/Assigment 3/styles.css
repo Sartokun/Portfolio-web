@@ -1,0 +1,105 @@
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  background-image: linear-gradient(to right, rgb(255, 254, 244), rgb(245, 232, 214), rgb(255, 253, 223));
+}
+
+.center{
+  text-align: center;
+}
+
+.img50{
+  width:50%;
+}
+
+.pad-left{
+  margin-left: 30px;
+  padding-left: 30px;
+}
+
+.pad-pic{
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+.headpad-left{
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.bar{
+  width:100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.bar-card{
+  font-family: "Playfair Display";
+  width:80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10%;
+  background-image: linear-gradient(to right, rgba(255, 174, 0, 0.1), rgb(255, 255, 255), rgb(255, 174, 0, 0.1));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top{
+  position:fixed;
+}
+
+#pic1{
+  width: 50%;
+  border-radius: 10%;
+  vertical-align: middle;
+}
+#pic2{
+  width: 100%;
+  border-radius: 20%;
+  vertical-align: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#pic3{
+  width: 80%;
+  border-radius: 5%;
+  vertical-align: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#pic4{
+  width: 80%;
+  border-radius: 5%;
+  vertical-align: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.content{
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.parent{
+  text-align: left;
+}
+
+.div_display{
+  width: 40%;
+  display: inline-block; 
+}
+
+.vertical{
+  vertical-align: middle;
+}
+
+.fontsize{
+  font-size: 100%;
+}
