@@ -3,4 +3,4 @@ window.onload = function() {
     links.forEach(function(link) {
         link.setAttribute('target', '_blank');
     });
-};
+}

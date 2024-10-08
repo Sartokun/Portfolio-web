@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #121212;
+    background-color: #000000;
     background-position: center;
     background-size: cover;
 
@@ -119,6 +119,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('Pictures/a94aee835e16cff4f14c83dac8ffbe10.gif')no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #PicME {
@@ -127,7 +130,8 @@ header {
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0px 100px rgb(188, 73, 255, 0.5);
-    margin-bottom: 25px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 main {
@@ -587,6 +591,14 @@ footer {
         border-radius: 50%;
         object-fit: cover;
         box-shadow: 0 0px 100px rgb(188, 73, 255, 0.5);
-        margin-bottom: 25px;
+        margin-bottom: 8%;
+    }
+    .pic-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('Pictures/a94aee835e16cff4f14c83dac8ffbe10.gif')no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
